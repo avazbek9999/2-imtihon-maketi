@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../scss/blocks/faqs-section.scss"
-    ],
-    "names": [],
-    "file": "faqs-section.min.css"
-}
