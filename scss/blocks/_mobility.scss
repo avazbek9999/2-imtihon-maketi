@@ -1,0 +1,104 @@
+.mobility__list{
+    margin: 0;
+    padding: 0;
+}
+
+
+.mobility__item{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    
+}
+
+.mobility__item:nth-child(1)::before {
+    position: absolute;
+    top: 278px;
+    right: -200px;
+    width: 735px;
+    height: 150px;
+    display: inline-block;
+    background-image: url(../imges/strelka1.png);
+    background-repeat: no-repeat;
+    content: " "; 
+}
+
+.mobility__item:nth-child(2)::before {
+    position: absolute;
+    top: 75px;
+    left: -555px;
+    width: 735px;
+    height: 150px;
+    display: inline-block;
+    background-image: url(../imges/strelka-chap.png);
+    background-repeat: no-repeat;
+    content: " ";
+}
+
+.mobility__item:nth-child(2n) .mobility__item__img {
+    order: -1;
+
+}
+
+.mobility__item-wrapper{
+    max-width: 445px;
+}
+
+
+.mobility__item__img{
+    border-radius: 100%;
+}
+
+.mobility__item__headding{
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #495567;
+}
+
+.mobility__item__paragraf{
+    font-family: Lexend Deca;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+}
+
+@media only screen and(max-width: 914px){
+    .mobility__item{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mobility__item-wrapper{
+        margin-top: 40px;
+    }
+
+    .mobility__item .mobility__item-wrapper{
+        order: 1;
+    }
+}
+   
+
+@media only screen and(max-width: 570px){
+    .mobility__item:nth-child(2)::before {
+        display: none;
+    }
+
+    .mobility__item:nth-child(1)::before{
+        display: none;
+    }
+
+    .mobility__item__headding {
+        font-size: 32px;
+        line-height: 32px;
+    }
+}
+
+
+

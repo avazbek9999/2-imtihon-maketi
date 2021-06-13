@@ -27,18 +27,32 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    font-family: 'Arial', 'sans-serif';
+    font-family: 'Space Mono','Arial', 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
     font-size: 16px;
     line-height: 1.5;
-    margin: 0;
+    
+   
+    
 }
 
-.site-main{
-    flex-grow: 1;
+main{
+    margin-top: 101px;
 }
+
+img{
+    max-width: 100%;
+    // height: auto;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
 
 .container {
-    width: 1280px;
+    width: 100%;
+    max-width: 1146px;
     margin: 0 auto;
     padding: 0 20px;
+    overflow: hidden;  
 }
