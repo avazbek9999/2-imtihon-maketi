@@ -137,9 +137,10 @@
     .site-header--adaptive .Scootin-link {
         display: block;
         position: fixed;
+        align-items: flex-end;
         margin-bottom: 20px;
         bottom: 0;
-        max-width: 50%;
+        max-width: 70%;
         height: auto;
         z-index: 10;
     }
