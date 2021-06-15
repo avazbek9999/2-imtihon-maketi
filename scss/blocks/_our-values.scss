@@ -38,10 +38,11 @@
 
 
 
-.our-values__item:nth-child(1):before {
+.our-values__item::before {
     position: absolute;
     top: 167px;
-    left: 32%;
+    left: 50%;
+    transform: translateX(-50%);
     width: 96px;
     height: 96px;
     padding: 34px;
@@ -56,41 +57,15 @@
     color: #495567;
 }
 
-.our-values__item:nth-child(2):before {
-    position: absolute;
-    top: 167px;
-    left: 32%;
-    width: 96px;
-    height: 96px;
-    padding: 34px;
-    display: inline-block;
-    border-radius: 100%;
+
+.our-values__item:nth-child(2):before{
     content: "02";
-    background-color: coral;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: center;
-    color: #495567;
 }
 
 .our-values__item:nth-child(3):before {
-    position: absolute;
-    top: 167px;
-    left: 32%;
-    width: 96px;
-    height: 96px;
-    padding: 34px;
-    display: block;
-    border-radius: 100%;
     content: "03";
-    background-color: coral;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: center;
-    color: #495567;
 }
+
 
 
 .our-values__img {
