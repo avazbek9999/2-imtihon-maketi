@@ -4,10 +4,9 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Careers</title>
+        <title>Locations</title>
         <link rel="stylesheet" href="./css/main.min.css" />
     </head>
-
     <body>
         <!-- header -->
         <header class="site-header site-header--adaptive">
@@ -62,186 +61,59 @@
                 <a class="Scootin-link" href="#">Get Scootin</a>
             </div>
         </header>
-        <!-- =========main========= -->
+
         <main>
             <!-- ===========================intro-section======================= -->
 
             <section class="hero-section careers-hero">
                 <div class="container">
-                    <h2 class="hero-section__headding">Careers</h2>
+                    <h2 class="hero-section__headding">Locations</h2>
                 </div>
             </section>
 
-            <!-- =========================good side======================== -->
+            <!-- map-section -->
 
-            <section class="good-side">
+            <section class="map">
                 <div class="container">
-                    <h2 class="good-side__headding visually-hidden">
-                        good sides block
-                    </h2>
-                    <ol class="good-side__list">
-                        <li class="good-side__item">
-                            <div class="good-side__item--wrapper">
-                                <h3 class="good-side__item__headding">
-                                    Care to join our mission?
-                                </h3>
-                                <p class="good-side__item__paragrf">
-                                    We’re always looking for ambitious
-                                    individuals to help us on our journey. If
-                                    you’re passionate about our mission to
-                                    provide clean, accessible transport to
-                                    improve urban living we want to hear from
-                                    you!
-                                </p>
+                    <picture>
+                        <source
+                            media="(max-width: 520px)"
+                            srcset="
+                                ./imges/mini-map.png    1x,
+                                ./imges/mini-map@2x.png 2x
+                            "
+                        />
+                        <img
+                            class="map__img"
+                            src="./imges/map.png"
+                            srcset="./imges/map.png 1x, ./imges/map@2x.png 2x"
+                            alt="picture of map"
+                            width="1110"
+                            height="543"
+                        />
+                    </picture>
 
-                                <a class="good-side__item__link" href="#"
-                                    >Learn More</a
-                                >
-                            </div>
-
-                            <span class="good-side__span telemetry">
-                                <picture class="good-side__picture">
-                                    <source
-                                        type="image/webp"
-                                        srcset="
-                                            ./imges/careers-mission.webp    1x,
-                                            ./imges/careers-mission@2x.webp 2x
-                                        "
-                                    />
-
-                                    <img
-                                        class="good-side__img"
-                                        src="./imges/careers-mission.jpg"
-                                        srcset="
-                                            ./imges/careers-mission.jpg 1x,
-                                            ./imges/careers-mission.jpg 2x
-                                        "
-                                        alt="woman use telemetriy "
-                                        width="445"
-                                        height="445"
-                                    />
-                                </picture>
-                            </span>
-                        </li>
-                    </ol>
-                </div>
-            </section>
-
-            <!-- ======================our value========================== -->
-            <section class="our-values">
-                <div class="container">
-                    <h2 class="our-values__headding">Why join us?</h2>
-                    <ol class="our-values__list">
-                        <li class="our-values__item">
-                            <img
-                                class="our-values__img"
-                                src="./imges/tech.png"
-                                alt=" our tech imge"
-                                width="240"
-                                height="240"
-                            />
-                            <h3 class="our-values__item__headding">Our tech</h3>
-                            <p class="our-values__item__paragrf">
-                                We’re using cutting edge technology to drive
-                                accessible urban transportation forward. Our
-                                fully electric scooters are a joy to ride!
-                            </p>
-                        </li>
-
-                        <li class="our-values__item">
-                            <img
-                                class="our-values__img"
-                                src="./imges/scuter.png"
-                                alt=" our tech imge"
-                                width="240"
-                                height="240"
-                            />
-                            <h3 class="our-values__item__headding">
-                                Our integrity
-                            </h3>
-                            <p class="our-values__item__paragrf">
-                                We are fully committed to deliver a great yet
-                                safe, sustainable micro-mobility experience in
-                                every city we serve.
-                            </p>
-                        </li>
-
-                        <li class="our-values__item">
-                            <img
-                                class="our-values__img"
-                                src="./imges/road.png"
-                                alt=" our tech imge"
-                                width="240"
-                                height="240"
-                            />
-                            <h3 class="our-values__item__headding">
-                                Our community
-                            </h3>
-                            <p class="our-values__item__paragrf">
-                                We support every community we serve. All workers
-                                are paid a Our community wage based on their
-                                location and are Scoot employees.
-                            </p>
-                        </li>
-                    </ol>
-                </div>
-            </section>
-
-            <!-- choose -->
-
-            <section class="choose">
-                <div class="container">
-                    <h2 class="choose__headding visually-hidden">Our Vacancies</h2>
-                    <ul class="choose__list">
-                        <li class="choose__item">
-                            <div class="choose__item-wrapper">
-                                <h3 class="choose__item__hedding">General Manager</h3>
-                                <p class="choose__item__paragrph">Jakarta, Indonesia</p>
-                            </div>
-                            <button class="choose__btn" type="button" >Apply</button>
-                        </li>
-
-                        <li class="choose__item">
-                            <div class="choose__item-wrapper">
-                                <h3 class="choose__item__hedding">UI/UX Designer</h3>
-                                <p class="choose__item__paragrph">Yokohama, Japan</p>
-                            </div>
-                            <button class="choose__btn" type="button" >Apply</button>
-                        </li>
-
-                        <li class="choose__item">
-                            <div class="choose__item-wrapper">
-                                <h3 class="choose__item__hedding">Blog Content Copywriter</h3>
-                                <p class="choose__item__paragrph">New York, United States</p>
-                            </div>
-                            <button class="choose__btn" type="button" >Apply</button>
-                        </li>
-
-                        <li class="choose__item">
-                            <div class="choose__item-wrapper">
-                                <h3 class="choose__item__hedding">Graphic Designer</h3>
-                                <p class="choose__item__paragrph">New York, United States</p>
-                            </div>
-                            <button class="choose__btn" type="button" >Apply</button>
-                        </li>
-
-                        <li class="choose__item">
-                            <div class="choose__item-wrapper">
-                                <h3 class="choose__item__hedding">Fleet Supervisor</h3>
-                                <p class="choose__item__paragrph">Jakarta, Indonesia</p>
-                            </div>
-                            <button class="choose__btn" type="button" >Apply</button>
-                        </li>
-
-                        <li class="choose__item">
-                            <div class="choose__item-wrapper">
-                                <h3 class="choose__item__hedding">UX Analyst</h3>
-                                <p class="choose__item__paragrph">London, United Kingdom</p>
-                            </div>
-                            <button class="choose__btn" type="button" >Apply</button>
-                        </li>
+                    <ul class="map__list">
+                        <li class="map-item">New York</li>
+                        <li class="map-item">London</li>
+                        <li class="map-item">Jakarta</li>
+                        <li class="map-item">Yokohama</li>
                     </ul>
+                </div>
+            </section>
 
+            <!-- map-listed -->
+
+            <section class="map-listed">
+                <div class="container">
+                    <h2 class="map-listed__headding">Your City Not Listed?</h2>
+                    <p class="map-listed__paragrf">
+                        If you’d like to see Scoot in your hometown, be sure to
+                        let us know. We track requests and plan launches based
+                        on demand. Feel free to message us by clicking the link
+                        or messaging us on social.
+                    </p>
+                    <a class="map-listed__link" href="#">Message Us</a>
                 </div>
             </section>
 
@@ -301,7 +173,7 @@
                         </li>
 
                         <li class="footer-nav__item">
-                            <a class="footer-nav__link" href="./locations.html"
+                            <a class="footer-nav__link" href="./location.html"
                                 >Location</a
                             >
                         </li>

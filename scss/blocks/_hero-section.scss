@@ -39,6 +39,11 @@
 }
 
 @media only screen and(max-width: 520px) {
+    .hero-section{
+        margin-bottom: 72px;
+    }
+    
+    
     .hero-section ::before{
         display: none;
     }
