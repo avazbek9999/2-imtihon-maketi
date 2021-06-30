@@ -27,7 +27,7 @@
     list-style: none;
 }
 
-.nav__item+.nav__item {
+.nav__item +.nav__item {
     margin-left: 32px;
 }
 
@@ -134,7 +134,7 @@
         display: none;
     }
 
-    .site-header--adaptive .Scootin-link {
+    .site-header--adaptive .Scootin-link{
         display: block;
         position: fixed;
         align-items: flex-end;
@@ -154,7 +154,7 @@
           display: none;
       }
 
-    .hamburger-btn {
+     .hamburger-btn {
         display: block;
     }
 
